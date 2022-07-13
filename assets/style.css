@@ -1,0 +1,49 @@
+
+/* google fonts links in header of each page */
+body{
+    background-color: rgb(242,241,235);
+    margin: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:rgb(181,137,92);
+    color: rgb(28, 47, 47);
+    margin: 0;
+    height: auto;
+    width:100%;
+    padding: 0 0 0 0;
+    
+
+}
+header>h2{
+    font-family: 'Nothing You Could Do', cursive;
+    padding-top: 0%;
+    padding-left: 2%;
+
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav>a{
+    float: right;
+    
+}
+h1{
+    font-family: 'Taviraj', serif;
+    font-size: 300%;
+    font-weight: 600;
+    padding-bottom: 0%;
+
+}
+h2, h3 {
+    font-family: 'Arsenal', sans-serif;
+}
+#about{
+    border: rgb(181,180,176) 1px solid;
+    
+}
+
+/* breakpoint - medium screens*/
+
+/* breakpoint - large screens*/
