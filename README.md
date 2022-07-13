@@ -8,4 +8,9 @@
 <h2>Testing</h2>
 <h3>accessibility</h3>
 <h3>Bug fixes</h3>
-<h3></h3>
+<hr>
+<h2>Deployment</h2>
+<hr>
+<h2>Credits</h2>
+<h3>Media</h3>
+<h3>Content</h3>
