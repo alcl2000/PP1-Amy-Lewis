@@ -46,6 +46,10 @@ nav>a{
     color: rgb(28, 47, 47);
 
 }
+nav>a:hover{
+    color:#EFDECD;
+    text-decoration: underline;
+}
 h1{
     font-family: 'Taviraj', serif;
     font-size: 300%;
@@ -56,9 +60,10 @@ h1{
 h2, h3 {
     font-family: 'Arsenal', sans-serif;
 }
-#about{
+#about , #why{
     border: rgb(181,180,176) 1px solid;
     max-width: 95%;
+    margin: 0  auto;
 }
 video{
     max-width: 70%;
