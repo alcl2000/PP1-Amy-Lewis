@@ -4,6 +4,7 @@ body{
     background-color: rgb(242,241,235);
     margin: 0 0 0 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 header{
     background-color:rgb(181,137,92);
@@ -12,22 +13,38 @@ header{
     height: auto;
     width:100%;
     padding: 0 0 0 0;
-    
+    position: relative;
 
+}
+header>h1{
+    margin: 0;
 }
 header>h2{
     font-family: 'Nothing You Could Do', cursive;
     padding-top: 0%;
     padding-left: 2%;
+    margin: 0;
+    text-align: left;
+
+}
+hr{
+    color: #FFFBE6;
 
 }
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
+nav{ /*add float right to the media queries for larger screens */  
+    background-color:inherit ;
+    display:inline-flex;
+}
 nav>a{
-    float: right;
-    
+    float: left;
+    padding-right:2em ;
+    padding-left: 2em;
+    color: rgb(28, 47, 47);
+
 }
 h1{
     font-family: 'Taviraj', serif;
@@ -41,9 +58,12 @@ h2, h3 {
 }
 #about{
     border: rgb(181,180,176) 1px solid;
-    
+    max-width: 95%;
 }
-
+video{
+    max-width: 70%;
+    margin-left: 15%;
+}
 /* breakpoint - medium screens*/
 
 /* breakpoint - large screens*/
