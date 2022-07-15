@@ -14,3 +14,4 @@
 <h2>Credits</h2>
 <h3>Media</h3>
 <h3>Content</h3>
+Social media icons from font awesome "https://fontawesome.com/search?s=solid%2Cbrands"

@@ -82,11 +82,46 @@ footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
+    
+    background-color:rgb(207, 169, 131);
+}
+footer>a{
     padding:5px;
 }
 footer>a:hover{
     color:#EFDECD;
     text-decoration: underline;
+}
+ul{
+    background-color: #e5bd96;
+    max-width: fit-content;
+    padding:20px 20px 10px 20px;
+    margin-left: 50px;
+}
+span{
+    background-color:  gainsboro;
+    border: solid 2px gray;
+    display: inline-block;
+    position: relative;
+    left:80px;
+    top:30px;
+    padding: 0px 10px;
+}
+#pastry , #cake , #donut{
+    font-size: 20px;
+}
+#donut{
+    position: relative;
+    top:100px;
+    height:fit-content
+}
+#middle{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+#bottom{
+    height: fit-content;
 }
 /* breakpoint - medium screens*/
 
