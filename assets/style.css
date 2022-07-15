@@ -39,10 +39,14 @@ nav{ /*add float right to the media queries for larger screens */
     background-color:inherit ;
     display:inline-flex;
 }
+nav>h2{
+    text-decoration: none;
+}
 nav>a{
     float: left;
     padding-right:2em ;
     padding-left: 2em;
+    padding-top: 1em;
     color: rgb(28, 47, 47);
 
 }
@@ -59,15 +63,30 @@ h1{
 }
 h2, h3 {
     font-family: 'Arsenal', sans-serif;
+    text-decoration: underline;
 }
 #about , #why{
-    border: rgb(181,180,176) 1px solid;
     max-width: 95%;
     margin: 0  auto;
 }
 video{
     max-width: 70%;
     margin-left: 15%;
+}
+#map{
+    margin: 0 0 auto;
+    text-align: center;
+}
+
+footer{
+    font-size:25px;
+    text-align: center;
+    color: rgb(28, 47, 47);
+    padding:5px;
+}
+footer>a:hover{
+    color:#EFDECD;
+    text-decoration: underline;
 }
 /* breakpoint - medium screens*/
 
