@@ -3,6 +3,7 @@
     --brown1:rgb(181,137,92);
     --brown2:rgb(207, 169, 131);
     --darkgrey:rgb(28, 47, 47);
+    --pink:#EFDECD;
 }
 
 /* google fonts links in header of each page */
@@ -38,7 +39,7 @@ hr{
 
 }
 p{
-    margin:0 10px 0 10px;
+    margin: 10px;
 }
 a{
     text-decoration: none;
@@ -154,6 +155,9 @@ input>#placeorder{
     background-color:  gainsboro;
     border: solid 2px gray;
     display: inline-block;
+}
+h4{
+    text-align: center;
 }
 /* breakpoint - medium screens*/
 
