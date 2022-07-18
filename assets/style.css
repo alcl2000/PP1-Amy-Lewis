@@ -79,7 +79,7 @@ h4{
     font-family: 'Arsenal', sans-serif;
     margin:0 0 0 0;
 }
-#about , #why{
+#about , #why, #find-us{
     max-width: 95%;
     margin: 0  auto;
 }
@@ -172,21 +172,21 @@ h4{
 
 
 /* breakpoint - medium screens*/
-@media screen and(min-width: 600px) {
-    h1{
-        padding-left: 10px;
+@media screen and (min-width: 450px) {
+    h1 {
+        padding-left: 5%;
     }
-    nav>h2{
-        display: inline;
-        float: right;
+    #tagline {
+        padding-left: 10%;
     }
-    nav>a{
+    nav>a {
         text-align: center;
         margin: 0 0 auto;
     }
+
 }
 
 /* breakpoint - large screens*/
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
     
 }
