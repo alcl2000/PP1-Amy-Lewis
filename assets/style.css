@@ -37,6 +37,9 @@ hr{
     color: #FFFBE6;
 
 }
+p{
+    margin:0 10px 0 10px;
+}
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,6 +74,10 @@ h2, h3 {
     font-family: 'Arsenal', sans-serif;
     text-decoration: underline;
 }
+h4{
+    font-family: 'Arsenal', sans-serif;
+    margin:0 0 0 0;
+}
 #about , #why{
     max-width: 95%;
     margin: 0  auto;
@@ -104,9 +111,10 @@ ul{
     background-color: #e5bd96;
     max-width: fit-content;
     padding:20px 20px 10px 20px;
-    margin-left: 50px;
+    margin-left: 50px;  
 }
-span{
+#pastry , #cake , #donut{
+    font-size: 20px;
     background-color:  gainsboro;
     border: solid 2px gray;
     display: inline-block;
@@ -114,9 +122,6 @@ span{
     left:80px;
     top:30px;
     padding: 0px 10px;
-}
-#pastry , #cake , #donut{
-    font-size: 20px;
 }
 #donut{
     position:relative;
@@ -138,14 +143,18 @@ span{
     text-decoration: none;
 }
 form{
-    text-align: justify;
+    text-align: center;
+    
 }
-/*label{
-    float: left;
+input>#placeorder{
+    text-align: center;
 }
-input{
-    float:right;
-}*/
+#order{
+    font-size: 20px;
+    background-color:  gainsboro;
+    border: solid 2px gray;
+    display: inline-block;
+}
 /* breakpoint - medium screens*/
 
 /* breakpoint - large screens*/
