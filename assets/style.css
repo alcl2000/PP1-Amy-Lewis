@@ -96,7 +96,7 @@ footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
-    position: fixed bottom;
+    position: sticky bottom;
     background-color:rgb(207, 169, 131);
 }
 footer>a{
@@ -159,6 +159,18 @@ input>#placeorder{
 h4{
     text-align: center;
 }
+/* thank you page*/
+#back{
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+#back:hover{
+    text-decoration: underline;
+    color:var(--pink)
+}
+
+
 /* breakpoint - medium screens*/
 
 /* breakpoint - large screens*/
