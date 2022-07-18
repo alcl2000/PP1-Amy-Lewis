@@ -1,3 +1,9 @@
+/* Universal */
+:root{
+    --brown1:rgb(181,137,92);
+    --brown2:rgb(207, 169, 131);
+    --darkgrey:rgb(28, 47, 47);
+}
 
 /* google fonts links in header of each page */
 body{
@@ -82,16 +88,18 @@ footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
-    
+    position: fixed bottom;
     background-color:rgb(207, 169, 131);
 }
 footer>a{
     padding:5px;
+    
 }
 footer>a:hover{
     color:#EFDECD;
     text-decoration: underline;
 }
+/* menu page*/
 ul{
     background-color: #e5bd96;
     max-width: fit-content;
@@ -111,18 +119,33 @@ span{
     font-size: 20px;
 }
 #donut{
-    position: relative;
-    top:100px;
-    height:fit-content
+    position:relative;
+    
 }
-#middle{
+/* This rule breaks the donuts section */
+/* #middle{
     float: right;
-    position: relative;
     right: 50px;
-}
+}*/
 #bottom{
-    height: fit-content;
+    position: relative;
+    height:fit-content;
 }
+
+/* Ordering page */
+#order{
+    position:relative;
+    text-decoration: none;
+}
+form{
+    text-align: justify;
+}
+/*label{
+    float: left;
+}
+input{
+    float:right;
+}*/
 /* breakpoint - medium screens*/
 
 /* breakpoint - large screens*/
