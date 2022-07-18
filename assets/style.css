@@ -172,5 +172,21 @@ h4{
 
 
 /* breakpoint - medium screens*/
+@media screen and(min-width: 600px) {
+    h1{
+        padding-left: 10px;
+    }
+    nav>h2{
+        display: inline;
+        float: right;
+    }
+    nav>a{
+        text-align: center;
+        margin: 0 0 auto;
+    }
+}
 
 /* breakpoint - large screens*/
+@media screen and (min-width: 1000px){
+    
+}
