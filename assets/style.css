@@ -192,13 +192,41 @@ h4{
         max-width: 70%;
         margin-left: 15%;
     }
-    
+    /* Menu */
+    ul{
+        padding: 30px;
+        font-size: 20px;
+    }
+    #bottom{
+        margin: 0 0 auto;
+    }
 }
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px) {
+    nav{
+        width: 100%;
+    }
+    h1{
+        font-size: 50px;
+    }
+    #tagine{
+        font-size: 50px;
+    }
     nav>a {
         text-align: center;
-        padding-left: 30vw;
+        padding-left: 20vw;
+        font-size: 25px;
+    }
+    /* Menu Page */
+    .menu{
+        display: inline-block;
+        
+    }
+    #bottom , #top {
+        margin-left: 15vw;
+    }
+    #middle{
+        margin-left: 10vw ;
     }
 }
