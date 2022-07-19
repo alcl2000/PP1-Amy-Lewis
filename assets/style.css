@@ -83,6 +83,9 @@ h4{
     max-width: 95%;
     margin: 0  auto;
 }
+#find-us{
+    padding-bottom: 10px;
+}
 video{
     max-width: 70%;
     margin-left: 15%;
@@ -90,6 +93,8 @@ video{
 #map{
     margin: 0 0 auto;
     text-align: center;
+    max-width: 70%;
+    margin-left: 15%;
 }
 
 footer{
@@ -179,14 +184,21 @@ h4{
     #tagline {
         padding-left: 10%;
     }
-    nav>a {
-        text-align: center;
-        margin: 0 0 auto;
+    nav>a{
+        padding-left: 20vw;
+        padding-right: 5vw;
     }
-
+    #map{
+        max-width: 70%;
+        margin-left: 15%;
+    }
+    
 }
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px) {
-    
+    nav>a {
+        text-align: center;
+        padding-left: 30vw;
+    }
 }
