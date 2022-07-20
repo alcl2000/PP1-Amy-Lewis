@@ -115,9 +115,12 @@ footer>a:hover{
 /* menu page*/
 ul{
     background-color: #e5bd96;
-    max-width: fit-content;
+    max-width: 260px; 
     padding:20px 20px 10px 20px;
-    margin-left: 50px;  
+    margin: 0 0 auto;  
+    text-align: center;
+    position:relative;
+    left: 10%;
 }
 #pastry , #cake , #donut{
     font-size: 20px;
@@ -129,18 +132,16 @@ ul{
     top:30px;
     padding: 0px 10px;
 }
-#donut{
+/*#donut{
     position:relative;
     
 }
-/* This rule breaks the donuts section */
-/* #middle{
-    float: right;
-    right: 50px;
-}*/
 #bottom{
     position: relative;
     height:fit-content;
+} */
+#card{
+    margin: 0 0 auto;
 }
 
 /* Ordering page */
@@ -197,8 +198,8 @@ h4{
         padding: 30px;
         font-size: 20px;
     }
-    #bottom{
-        margin: 0 0 auto;
+    #card{
+        width: 300px;
     }
 }
 
