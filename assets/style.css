@@ -2,6 +2,7 @@
 :root{
     --brown1:rgb(181,137,92);
     --brown2:rgb(207, 169, 131);
+    --lightgrey:rgb(109, 109, 109);
     --darkgrey:rgb(28, 47, 47);
     --pink:#EFDECD;
 }
@@ -64,6 +65,13 @@ nav>a:hover{
     color:#EFDECD;
     text-decoration: underline;
 }
+nav>a:active{
+    color:var(--lightgrey);
+}
+.open{
+    color: var(--pink);
+    text-decoration: underline;
+}
 h1{
     font-family: 'Taviraj', serif;
     font-size: 300%;
@@ -107,6 +115,9 @@ footer{
 footer>a{
     padding:5px;
     
+}
+footer>a:visited{
+    color:var(--darkgrey)
 }
 footer>a:hover{
     color:#EFDECD;
