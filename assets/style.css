@@ -87,7 +87,7 @@ h4{
     font-family: 'Arsenal', sans-serif;
     margin:0 0 0 0;
 }
-#about , #why, #find-us{
+#about , #why, #find-us, #details{
     max-width: 95%;
     margin: 0  auto;
 }
@@ -104,7 +104,6 @@ video{
     max-width: 70%;
     margin-left: 15%;
 }
-
 footer{
     font-size:25px;
     text-align: center;
@@ -206,6 +205,11 @@ h4{
         padding-left: 20vw;
         padding-right: 5vw;
     }
+    footer>a{
+        font-size: 30px;
+    }
+    /* landing page */
+
     #map{
         max-width: 70%;
         margin-left: 15%;
@@ -222,6 +226,11 @@ h4{
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px) {
+    p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size:20px;
+    }
     nav{
         width: 100%;
     }
