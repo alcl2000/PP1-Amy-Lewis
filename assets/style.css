@@ -271,14 +271,14 @@ h4{
         padding-top: 10px;
     }
     iframe{
-        max: width 20%;
+        max-width: 30%;
         position: absolute;
         left:5%;
     }
     #map>p{
         max-width: 20%;
         position:absolute;
-        left:45%;
+        left:40%;
     }
     #details{
         position:absolute;
@@ -292,7 +292,9 @@ h4{
         margin-top:10px;
     }
     footer{
-        
+        position:absolute;
+        top:950px;
+        width: 100%;
     }
     /* Menu Page */
     .menu{
