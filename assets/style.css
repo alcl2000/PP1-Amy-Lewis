@@ -267,37 +267,45 @@ h4{
         margin-right: 5%;
         max-width: 45%;
     }
-    #find-us{
-        padding-top: 10px;
+    #contact{
+        top:60%;
+    }
+     /* #find-us{
+        padding-top: 10px; */
     }
     iframe{
         max-width: 30%;
         position: absolute;
         left:5%;
     }
+    #map{
+        top:75%vh;
+        height: 600px;
+    }
     #address{
         max-width: 20%;
         position:absolute;
         left:40%;
-        top:720px;
+        top:60%vh;
         border-bottom: 1px solid var(--darkgrey);
     }
-    #map>p{
+    #postcode{
         padding-top: 20px;
-        top:85%;
+        top:85% vh;
+        
     }
     #details {
         position:absolute;
         float:right;
         left:70%;
-        top:720px;
+        top:60%vh;
         border-bottom: 1px solid var(--darkgrey);
     }
     .number{
         position:absolute;
         float:right;
         left:70%;
-        top:760px;
+        top: 85% vh;
         text-align: left;
     }
     footer{
@@ -305,7 +313,7 @@ h4{
         top:1000px;
         width: 100%;
         margin-bottom: 0; 
-        margin-top:90px   
+        margin-top:40px   
     }
     /* Menu Page */
     .menu{
