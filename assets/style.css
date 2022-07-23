@@ -279,7 +279,7 @@ h4{
         position: absolute;
         left:5%;
     }
-    #map{
+   /* #map{
         top:75%vh;
         height: 600px;
     }
@@ -308,7 +308,30 @@ h4{
         left:70%;
         top: 85% vh;
         text-align: left;
+    } */
+    .sub-header{
+        border-bottom: 1px solid var(--darkgrey);
+        display:inline-block;
+        position:absolute;
+        top:70% vh;
+
     }
+    #find-us, #postcode {
+        left:40%;
+        position: absolute;
+    }
+    #contact-us,  #number{
+        left:60%;
+        position:absolute;
+    }
+    .details{
+        position:absolute;
+        display: inline-block;
+        top: 75% vh;
+
+    }
+
+    
     footer{
         position:absolute;
         top:1000px;
