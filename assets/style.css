@@ -41,12 +41,13 @@ hr{
 }
 p{
     margin: 10px;
+    margin-bottom: 20px;
 }
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-nav{ /*add float right to the media queries for larger screens */  
+nav{
     background-color:inherit ;
     display:inline-flex;
 }
@@ -87,36 +88,38 @@ h4{
     font-family: 'Arsenal', sans-serif;
     margin:0 0 0 0;
 }
-#about , #why, #find-us, #details{
-    max-width: 95%;
-    margin: 0  auto;
-}
-#find-us{
-    padding-bottom: 10px;
-}
 video{
     max-width: 70%;
-    margin-left: 15%;
+    margin-left: 10%;
+}
+.contact{
+    max-width: 80%;
+    margin-bottom:20px;
+}
+#find-us , #postcode, #contact-us , #number{
+    max-width: 95%;
+    text-align: center;
+}
+.sub-heading{
+    padding-bottom: 10px;
 }
 #map{
     margin: 0 0 auto;
-    text-align: center;
     max-width: 70%;
     margin-left: 15%;
-}
-.number{
-    text-align: center;
 }
 footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
-    position: sticky bottom;
+    position:static;
     background-color:rgb(207, 169, 131);
+    padding-bottom: 20px;
+    height: fit-content;
 }
 footer>a{
     padding:5px;
-    
+    background-color: var(--brown2);
 }
 footer>a:visited{
     color:var(--darkgrey)
@@ -228,7 +231,7 @@ h4{
 }
 
 /* breakpoint - large screens*/
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1000px){
     p{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -272,7 +275,6 @@ h4{
     }
      /* #find-us{
         padding-top: 10px; */
-    }
     iframe{
         max-width: 30%;
         position: absolute;
@@ -307,7 +309,7 @@ h4{
         left:70%;
         top: 85% vh;
         text-align: left;
-    } */
+    } 
     .sub-header{
         border-bottom: 1px solid var(--darkgrey);
         display:inline-block;
@@ -328,9 +330,8 @@ h4{
         display: inline-block;
         top: 75% vh;
 
-    }
+    } */
 
-    
     footer{
         position:absolute;
         top:1000px;
