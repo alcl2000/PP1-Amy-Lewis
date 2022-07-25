@@ -229,7 +229,6 @@ h4{
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px) {
-    /* universal */
     p{
         padding-top: 10px;
         padding-bottom: 10px;
@@ -355,3 +354,4 @@ h4{
         font-size:40px;
         padding:10px;
     }
+}
