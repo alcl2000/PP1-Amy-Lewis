@@ -50,6 +50,7 @@ a{
 nav{
     background-color:inherit ;
     display:inline-flex;
+    width:100%;
 }
 nav>h2{
     text-decoration: none;
@@ -60,7 +61,6 @@ nav>a{
     padding-left: 2em;
     padding-top: 1em;
     color: rgb(28, 47, 47);
-
 }
 nav>a:hover{
     color:#EFDECD;
@@ -197,6 +197,20 @@ h4{
     text-decoration: underline;
     color:var(--pink)
 }
+/* breakpoint - small/medium screens */
+
+@media screen and (min-width: 400px){
+    h1{
+        margin-left:10px;
+    }
+    nav>a{
+        float: left;
+        padding-right:4em ;
+        padding-left: 2em;
+        padding-top: 1em;
+        color: rgb(28, 47, 47);
+    }
+}
 
 
 /* breakpoint - medium screens*/
@@ -229,6 +243,9 @@ h4{
         width: 300px;
     }
 }
+ /* breakpoint - Tablets/ horizontal */
+ @media screen and (min-width:500px){
+ }
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
@@ -280,7 +297,7 @@ h4{
         position: absolute;
         left:5%;
     }
-   /* #map{
+    #map{
         top:75%vh;
         height: 600px;
     }
@@ -330,7 +347,7 @@ h4{
         display: inline-block;
         top: 75% vh;
 
-    } */
+    } 
 
     footer{
         position:absolute;
