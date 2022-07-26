@@ -288,75 +288,36 @@ h4{
         margin-left:5%;
     }
     #why{
-        position: absolute;
+       position: absolute; 
         float: right;
         top: 360px;
         left: 50%;
-        margin-right: 5%;
+        margin-right: 5%; 
         max-width: 45%;
     }
-    #contact{
-        top:60%;
-    }
-     /* #find-us{
-        padding-top: 10px; */
-    iframe{
-        max-width: 30%;
-        position: absolute;
-        left:5%;
-    }
-    #map{
-        top:75%vh;
-        height: 600px;
-    }
-    #address{
-        max-width: 20%;
-        position:absolute;
-        left:40%;
-        top:60%vh;
-        border-bottom: 1px solid var(--darkgrey);
-    }
-    #postcode{
-        padding-top: 20px;
-        top:85% vh;
-        
-    }
-    #details {
-        position:absolute;
-        float:right;
-        left:70%;
-        top:60%vh;
-        border-bottom: 1px solid var(--darkgrey);
-    }
-    .number{
-        position:absolute;
-        float:right;
-        left:70%;
-        top: 85% vh;
-        text-align: left;
-    } 
     .sub-header{
         border-bottom: 1px solid var(--darkgrey);
-        display:inline-block;
-        position:absolute;
-        top:70% vh;
-
+        max-width: 30%;
+        display: inline-block;
     }
-    #find-us, #postcode {
-        left:40%;
-        position: absolute;
-    }
-    #contact-us,  #number{
-        left:60%;
-        position:absolute;
+    .contact-us{
+        padding: 0;
     }
     .details{
-        position:absolute;
+        max-width: 30%;
         display: inline-block;
-        top: 75% vh;
-
-    } 
-
+        position: relative;
+    }
+    #number{
+        left: 25%;
+    }
+    #postcode{
+       right:15%;
+    }
+     #map{
+        max-width: 25%;
+        display: inline-block;
+        }
     footer{
         position:absolute;
         top:1000px;
