@@ -244,7 +244,15 @@ h4{
     }
 }
  /* breakpoint - Tablets/ horizontal */
- @media screen and (min-width:500px){
+ @media screen and (min-width:600px){
+    #map{
+        float:left;
+        margin-left:15%;
+        margin-right:10%;
+    }
+    #contact-us{
+        padding-top: 40px;
+    }
  }
 
 /* breakpoint - large screens*/
