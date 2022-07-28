@@ -331,19 +331,39 @@ h4{
         margin-top:40px   
     }
     /* Menu Page */
-    .menu{
-        display: inline-block;
-        
+    
+    #pastry , #donut , #cake{
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 600;
     }
-    #bottom , #top {
-        margin-left: 15vw;
-    }
-    #middle{
-        margin-left: 10vw ;
+    li{
+        padding: 10px 0 0 0;
+        font-size: 20px
     }
     /* Footer */
     footer>a{
         font-size:40px;
         padding:10px;
+    }
+}
+
+/* breakpoint extra large screens */
+@media screen and (min-width:1200px){
+    /* Menu page*/
+    .menu{
+        display: inline-block;
+        height:300px;
+        width:300px;
+        position: absolute;
+    }
+    #top{
+        left:100px
+    }
+    #middle{
+        left: 475px;
+    }
+    #bottom{
+        right:100px;
     }
 }
