@@ -154,14 +154,6 @@ ul>.variety{
     padding: 0px 10px;
     z-index: 1;
 }
-/*#donut{
-    position:relative;
-    
-}
-#bottom{
-    position: relative;
-    height:fit-content;
-} */
 #card{
     margin: 0 0 auto;
 }
@@ -187,11 +179,17 @@ input>#placeorder{
 h4{
     text-align: center;
 }
+img{
+    max-height: 300px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+}
 /* thank you page*/
 #back{
     text-decoration: none;
     text-align: center;
     text-transform: capitalize;
+    color: var(--darkgrey);
 }
 #back:hover{
     text-decoration: underline;
@@ -357,8 +355,11 @@ h4{
         width:300px;
         position: absolute;
     }
+    .card{
+        height:330px;
+    }
     #top{
-        left:100px
+        left:100px;
     }
     #middle{
         left: 475px;
