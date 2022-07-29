@@ -109,6 +109,7 @@ video{
     max-width: 70%;
     margin-left: 15%;
 }
+/* Footer */
 footer{
     font-size:25px;
     text-align: center;
@@ -172,14 +173,13 @@ input>#placeorder{
     position:absolute;
     left:30%;
     margin-top:5px;
-    padding: 0 , 10px, 0, 10px;
     background-color: rgba(109, 109, 109, 0.6);
     color:var(--white);
 }
 #headline > h3 {
     font-family: 'Nothing You Could Do', cursive;
+    padding: 0 , 10px, 0, 10px; 
 }
-
 h4{
     text-align: center;
     text-decoration: underline;
@@ -246,6 +246,14 @@ img{
     }
     #card{
         width: 300px;
+    }
+    /*Order page*/
+    #headline{
+        left:40%;
+        margin:30px;
+    }
+    #order-form{
+        margin:0, 10px;
     }
 }
  /* breakpoint - Tablets/ horizontal */
@@ -373,5 +381,9 @@ img{
     }
     #bottom{
         right:100px;
+    }
+    /*Order page*/
+    #headline{
+        margin:60px;
     }
 }
