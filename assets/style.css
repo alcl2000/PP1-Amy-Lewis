@@ -159,10 +159,6 @@ ul>.variety{
 }
 
 /* Ordering page */
-#order{
-    position:relative;
-    text-decoration: none;
-}
 form{
     text-align: center;
     
@@ -170,18 +166,22 @@ form{
 input>#placeorder{
     text-align: center;
 }
-#order{
-    font-size: 20px;
-    background-color:  gainsboro;
-    border: solid 2px gray;
-    display: inline-block;
+#headline{
+    text-align: center;
+    position:absolute;
+    left:30%;
+}
+#headline > h3 {
+    font-family: 'Nothing You Could Do', cursive;
 }
 h4{
     text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
 }
 img{
     max-height: 300px;
-    margin-left: 10px;
+    width:100%;
     padding-bottom: 20px;
 }
 /* thank you page*/
