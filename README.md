@@ -41,7 +41,8 @@ The thank you page acts as an order confirmation page, letting customers know th
 
 ## Credits
 ### Media 
-Royalty free baking video By Taryn Elliot [Sourced from Pexels](https://www.pexels.com/video/stirring-flour-and-condensed-milk-in-a-mixing-bowl-3325984/)
+- Royalty free baking video By Taryn Elliot [Sourced from Pexels](https://www.pexels.com/video/stirring-flour-and-condensed-milk-in-a-mixing-bowl-3325984/)
+- Royalty free pastry picture By Skyler Ewing [Sourced from Pexels](https://www.pexels.com/photo/freshly-baked-bread-with-cinnamon-9513725/)
 ### Other content
 [Social media icons from Font Awesome](https://fontawesome.com/search?s=solid%2Cbrands)
 #### Fonts through out the website 

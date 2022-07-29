@@ -5,6 +5,7 @@
     --lightgrey:rgb(109, 109, 109);
     --darkgrey:rgb(28, 47, 47);
     --pink:#EFDECD;
+    --white:rgb(248, 248, 248);
 }
 
 /* google fonts links in header of each page */
@@ -170,10 +171,15 @@ input>#placeorder{
     text-align: center;
     position:absolute;
     left:30%;
+    margin-top:5px;
+    padding: 0 , 10px, 0, 10px;
+    background-color: rgba(109, 109, 109, 0.6);
+    color:var(--white);
 }
 #headline > h3 {
     font-family: 'Nothing You Could Do', cursive;
 }
+
 h4{
     text-align: center;
     text-decoration: underline;
@@ -181,6 +187,7 @@ h4{
 }
 img{
     max-height: 300px;
+    min-height: 125px;
     width:100%;
     padding-bottom: 20px;
 }
