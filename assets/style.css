@@ -192,15 +192,21 @@ img{
     padding-bottom: 20px;
 }
 /* thank you page*/
-#back{
-    text-decoration: none;
+#thank-you{
     text-align: center;
+}
+a>p{
     text-transform: capitalize;
     color: var(--darkgrey);
+    background-color: var(--pink);
+    border: var(--darkgrey) solid 2px;
+    width: fit-content;
+    margin-left:25% ;
+    padding: 10px;
+    font-weight: 500;
 }
 #back:hover{
-    text-decoration: underline;
-    color:var(--pink)
+    background-color:gainsboro
 }
 /* breakpoint - small/medium screens */
 
