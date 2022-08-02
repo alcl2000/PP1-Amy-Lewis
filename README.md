@@ -6,6 +6,7 @@ This project is a bakery's website, alowing users to find out opening and closin
 1. As a local of the area I would like to be able to find new and exciting options for food and to support the local ecoonomy by avoiding commercial coffee shops and bakeries. 
 2. I am looking to buy a cake for an upcoming event, I would like to find and order this online
 3. 
+4. I would like to be able to order in advance, and be able to choose either collection or delivery
 ## Wireframes
 ### Inital Wireframes used for this project
 The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
@@ -20,7 +21,7 @@ The inital wireframes do not exactly match the end project, but still show the u
 ## Features
 ### Landing Page
 
-The landing/Index page acts as a home page to the Bakery Website; it has a short about section and a section with the Frost's unique selling point as a way to encourage new customers. The landing page also has a map and address section, which fulfills user expectation 2. 
+The landing/Index page acts as a home page to the Bakery Website; it has a short about section and a section with the Frost's unique selling point as a way to encourage new customers. There is also a video, demonstrating common baking techniques as a way of inticing customers, the video plays on mute and allows users to pause or play it with the use of controls. The landing page also has a map and address section, which fulfills user expectation 2. 
 ### Menu 
 
 The menu page contains three boxes which display Unordered lists, these contain different menu items which customers may want to order, fulfilling both expectations 1 and 2.
@@ -47,7 +48,7 @@ Some of the colours used in this project did not score highly enough in acessibi
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
 ## Deployment
-Deployment of this project is being done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details.
+Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details.
 
 ## Credits
 ### Media 
