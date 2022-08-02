@@ -7,7 +7,7 @@ This project is a bakery's website, alowing users to find out opening and closin
 2. I am looking to buy a cake for an upcoming event, I would like to find and order this online
 3. 
 
-### User Expectation
+### User Expectations
 1. I expect Information to be laid out in an easy to read manner
 2. I expect to be able to find an address and a menu for this buisness
 3. I expect to be able to use the website easily, and for it to have a responsive interface
@@ -33,11 +33,14 @@ The thank you page acts as an order confirmation page, letting customers know th
 ## Testing
 ### Validation
 ### Manual Testing
-## accessibility
+## Accessibility
+All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
+
+The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes
 ## Bug fixes
 
 ## Deployment
-## Forking
+Deployment of this project is being done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details.
 
 ## Credits
 ### Media 

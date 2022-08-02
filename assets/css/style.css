@@ -114,7 +114,7 @@ footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
-    position:static;
+    position:fixed bottom;
     background-color:rgb(207, 169, 131);
     padding-bottom: 20px;
     height: fit-content;
