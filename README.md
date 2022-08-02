@@ -6,7 +6,11 @@ This project is a bakery's website, alowing users to find out opening and closin
 1. As a local of the area I would like to be able to find new and exciting options for food and to support the local ecoonomy by avoiding commercial coffee shops and bakeries. 
 2. I am looking to buy a cake for an upcoming event, I would like to find and order this online
 3. 
+## Wireframes
+### Inital Wireframes used for this project
+The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
 
+![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) ![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg)
 ### User Expectations
 1. I expect Information to be laid out in an easy to read manner
 2. I expect to be able to find an address and a menu for this buisness
@@ -36,9 +40,12 @@ The thank you page acts as an order confirmation page, letting customers know th
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
 
-The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes
-## Bug fixes
+The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes.
 
+Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
+![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/acess%20testing.jpg)
+## Bug fixes
+The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
 ## Deployment
 Deployment of this project is being done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details.
 
