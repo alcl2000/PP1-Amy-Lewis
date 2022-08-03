@@ -110,7 +110,7 @@ footer{
     font-size:25px;
     text-align: center;
     color: rgb(28, 47, 47);
-    position:fixed bottom;
+    position:sticky bottom;
     background-color:rgb(207, 169, 131);
     padding-bottom: 20px;
     height: fit-content;
@@ -266,6 +266,10 @@ a>p{
     #contact-us{
         padding-top: 40px;
     }
+    form{
+        margin:20px;
+        font-size:20px;
+    }
  }
 
 
@@ -337,13 +341,6 @@ a>p{
         max-width: 25%;
         display: inline-block;
         }
-    footer{
-        position:absolute;
-        top:1000px;
-        width: 100%;
-        margin-bottom: 0; 
-        margin-top:40px   
-    }
     /* Menu Page */
     #pastry , #donut , #cake{
         font-size: 20px;
@@ -355,6 +352,13 @@ a>p{
         font-size: 20px
     }
     /* Footer */
+    footer{
+        position:absolute;
+        top:1040px;
+        width: 100%;
+        margin-bottom: 0; 
+        margin-top:40px   
+    }
     footer>a{
         font-size:40px;
         padding:10px;
