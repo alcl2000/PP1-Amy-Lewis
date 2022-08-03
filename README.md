@@ -5,8 +5,8 @@ This project is a bakery's website, alowing users to find out opening and closin
 ### User stories
 1. As a local of the area I would like to be able to find new and exciting options for food and to support the local ecoonomy by avoiding commercial coffee shops and bakeries. 
 2. I am looking to buy a cake for an upcoming event, I would like to find and order this online
-3. 
-4. I would like to be able to order in advance, and be able to choose either collection or delivery
+3. I am new to the area and looking for new bakeries and cafes to try out
+4. 
 ## Wireframes
 ### Inital Wireframes used for this project
 The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
@@ -44,11 +44,11 @@ All images and video content have alt-text provided, all links have attached ari
 The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes.
 
 Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
-![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/acess%20testing.jpg)
+![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess%20testing.jpg)
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
 ## Deployment
-Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details.
+Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
 ## Credits
 ### Media 
