@@ -253,6 +253,11 @@ a>p{
     }
     #order-form{
         margin:0, 10px;
+        
+    }
+    /* Thank You page*/
+    #back{
+        margin-left:60%;
     }
 }
 
@@ -362,7 +367,7 @@ a>p{
     footer>a{
         font-size:40px;
         padding:10px;
-    }
+    }   
 }
 
 /* breakpoint extra large screens */
