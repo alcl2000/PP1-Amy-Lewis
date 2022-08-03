@@ -4,8 +4,8 @@
     --brown2:rgb(207, 169, 131);
     --lightgrey:rgb(109, 109, 109);
     --darkgrey:rgb(28, 47, 47);
-    --pink:#EFDECD;
-    --white:rgb(248, 248, 248);
+    --pink: rgb(249, 243, 240);
+    --white:rgb(242, 241, 235);
 }
 
 /* google fonts links in header of each page */
@@ -16,8 +16,8 @@ body{
     text-align: justify;
 }
 header{
-    background-color:rgb(181,137,92);
-    color: rgb(28, 47, 47);
+    background-color:var(--brown1);
+    color: var(--darkgrey);
     margin: 0;
     height: auto;
     width:100%;
@@ -64,7 +64,7 @@ nav>a{
     color: rgb(28, 47, 47);
 }
 nav>a:hover{
-    color:#EFDECD;
+    color:var(--pink);
     text-decoration: underline;
 }
 nav>a:active{
@@ -127,7 +127,7 @@ footer>a:visited{
     color:var(--darkgrey)
 }
 footer>a:hover{
-    color:#EFDECD;
+    color:var(--pink);
     text-decoration: underline;
 }
 /* menu page*/
