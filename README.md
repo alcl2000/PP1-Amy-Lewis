@@ -6,18 +6,18 @@ This project is a bakery's website, alowing users to find out opening and closin
 1. As a local of the area I would like to be able to find new and exciting options for food and to support the local ecoonomy by avoiding commercial coffee shops and bakeries. 
 2. I am looking to buy a cake for an upcoming event, I would like to find and order this online
 3. I am new to the area and looking for new bakeries and cafes to try out
-4. 
-## Wireframes
-### Inital Wireframes used for this project
-The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
-![A sitemap created in wireframe for to show the stucture of pages within this project](assets/content/readme/wireframe-sitemap.jpg)
-![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) ![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg) ![A wireframe created for the menu page, on large screens](assets/content/readme/wireframe-menu.jpg) ![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
+4. I would like to visit Canterbury for the day and buy food while I'm there, I am looking for an option in the city center
 ### User Expectations
 1. I expect Information to be laid out in an easy to read manner
 2. I expect to be able to find an address and a menu for this buisness
 3. I expect to be able to use the website easily, and for it to have a responsive interface
 4. I expect to be able to place an order, and for this process to be simple
 
+## Wireframes
+### Inital Wireframes used for this project
+The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
+![A sitemap created in wireframe for to show the stucture of pages within this project](assets/content/readme/wireframe-sitemap.jpg)
+![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) ![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg) ![A wireframe created for the menu page, on large screens](assets/content/readme/wireframe-menu.jpg) ![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
 ## Features
 ### Landing Page
 
