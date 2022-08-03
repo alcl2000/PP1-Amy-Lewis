@@ -23,7 +23,6 @@ header{
     width:100%;
     padding: 0 0 0 0;
     position: relative;
-
 }
 header>h1{
     margin: 0;
@@ -34,11 +33,9 @@ header>h2{
     padding-left: 2%;
     margin: 0;
     text-align: left;
-
 }
 hr{
     color: #FFFBE6;
-
 }
 p{
     margin: 10px;
@@ -79,7 +76,6 @@ h1{
     font-size: 300%;
     font-weight: 600;
     padding-bottom: 0%;
-
 }
 h2, h3 {
     font-family: 'Arsenal', sans-serif;
@@ -124,7 +120,7 @@ footer>a{
     background-color: var(--brown2);
 }
 footer>a:visited{
-    color:var(--darkgrey)
+    color:var(--darkgrey);
 }
 footer>a:hover{
     color:var(--pink);
@@ -132,7 +128,7 @@ footer>a:hover{
 }
 /* menu page*/
 ul{
-    background-color: #e5bd96;
+    background-color: rgb(229, 189, 150);
     max-width: 70%; 
     padding:20px 20px 10px 20px;
     margin: 0 0 auto;  
@@ -147,8 +143,8 @@ ul>.variety{
 }
 #pastry , #cake , #donut{
     font-size: 20px;
-    background-color:  gainsboro;
-    border: solid 2px gray;
+    background-color:  rgb(220, 220, 220);
+    border: solid 2px rgb(128, 128, 128);
     display: inline-block;
     position: relative;
     left:80px;
@@ -159,7 +155,6 @@ ul>.variety{
 #card{
     margin: 0 0 auto;
 }
-
 /* Ordering page */
 form{
     text-align: center;
@@ -206,7 +201,7 @@ a>p{
     font-weight: 500;
 }
 #back:hover{
-    background-color:gainsboro
+    background-color:rgb(220, 220, 220);
 }
 /* breakpoint - small/medium screens */
 
@@ -222,7 +217,6 @@ a>p{
         color: rgb(28, 47, 47);
     }
 }
-
 
 /* breakpoint - medium screens*/
 @media screen and (min-width: 450px) {
@@ -240,7 +234,6 @@ a>p{
         font-size: 30px;
     }
     /* landing page */
-
     #map{
         max-width: 70%;
         margin-left: 15%;
@@ -262,6 +255,7 @@ a>p{
         margin:0, 10px;
     }
 }
+
  /* breakpoint - Tablets/ horizontal */
  @media screen and (min-width:600px){
     #map{
@@ -273,6 +267,7 @@ a>p{
         padding-top: 40px;
     }
  }
+
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
@@ -350,7 +345,6 @@ a>p{
         margin-top:40px   
     }
     /* Menu Page */
-    
     #pastry , #donut , #cake{
         font-size: 20px;
         padding: 10px;
