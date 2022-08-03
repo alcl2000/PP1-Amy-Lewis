@@ -372,6 +372,16 @@ a>p{
 
 /* breakpoint extra large screens */
 @media screen and (min-width:1200px){
+    /*Index */
+    iframe{
+        max-width: 33%;
+    }
+    p{
+        margin: 0 20px;
+    }
+    .sub-header{
+        margin-left:50px;
+    }
     /* Menu page*/
     .menu{
         display: inline-block;
