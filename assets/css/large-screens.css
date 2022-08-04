@@ -1,3 +1,17 @@
+/* breakpoint - index page only */
+@media screen and (min-width:950px){
+    .sub-header{
+        max-width: 30%;
+        display: inline-block;
+        position: relative;
+        margin-left:5%;
+    }
+    .details{
+        max-width:30%;
+        display:inline-block;
+        position: relative;
+    }
+}
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
     /* Universal */
@@ -40,20 +54,11 @@
         max-width: 45%;
     }
     .sub-header{
-        border-bottom: 1px solid var(--darkgrey);
-        max-width: 30%;
-        display: inline-block;
-        position:relative;
-        bottom: 70px;
+        margin-left:25%;
     }
     #contact-us{
         padding: 0;
         right:10%;
-    }
-    .details{
-        max-width: 30%;
-        display: inline-block;
-        position: relative;
     }
     #number{
         left: 15%;

@@ -215,6 +215,18 @@ a>p{
         padding-top: 1em;
         color: rgb(28, 47, 47);
     }
+    /*order page */
+    form{
+        margin:10px;
+    }
+    label{
+        float:left;
+        margin-left: 4rem;
+    }
+    input{
+        float:right;
+        margin-right:4rem
+    }
 }
 
 /* breakpoint - medium screens*/
@@ -251,8 +263,8 @@ a>p{
         margin:30px;
     }
     #order-form{
-        margin:0, 10px;
-        
+        max-width: 80%;
+        margin:20px 25%;
     }
     /* Thank You page*/
     #back{
