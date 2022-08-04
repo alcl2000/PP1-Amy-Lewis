@@ -1,16 +1,16 @@
 /* breakpoint - index page only */
 @media screen and (min-width:950px){
-    .sub-header{
+    #address #contacts{
         max-width: 30%;
         display: inline-block;
         position: relative;
         margin-left:5%;
     }
-    .details{
+    /*.details{
         max-width:30%;
         display:inline-block;
         position: relative;
-    }
+    } */
 }
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
@@ -46,14 +46,14 @@
         margin-left:5%;
     }
     #why{
-       position: absolute; 
-        float: right;
-        top: 360px;
-        left: 50%;
-        margin-right: 5%; 
-        max-width: 45%;
-    }
-    .sub-header{
+        position: absolute; 
+         float: right;
+         top: 360px;
+         left: 50%;
+         margin-right: 5%; 
+         max-width: 45%;
+     }
+   /* .sub-header{
         margin-left:25%;
     }
     #contact-us{
@@ -67,9 +67,10 @@
     #postcode{
        right:15%;
        top:60px;
-    }
+    } */
      #map{
-        max-width: 25%;
+        width: 33%;
+        height:20%;
         display: inline-block;
         }
     /* Menu Page */
@@ -105,9 +106,9 @@
     p{
         margin: 0 20px;
     }
-    .sub-header{
+    /*.sub-header{
         margin-left:50px;
-    }
+    } */
     /* Menu page*/
     .menu{
         display: inline-block;
