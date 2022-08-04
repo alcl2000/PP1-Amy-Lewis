@@ -202,8 +202,8 @@ a>p{
 #back:hover{
     background-color:rgb(220, 220, 220);
 }
-/* breakpoint - small/medium screens */
 
+/* breakpoint - small/medium screens */
 @media screen and (min-width: 400px){
     h1{
         margin-left:10px;
@@ -279,6 +279,7 @@ a>p{
 
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
+    /* Universal */
     p{
         padding-top: 10px;
         padding-bottom: 10px;
