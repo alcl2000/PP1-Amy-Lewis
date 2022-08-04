@@ -1,0 +1,129 @@
+/* breakpoint - large screens*/
+@media screen and (min-width: 1000px){
+    /* Universal */
+    p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size:20px;
+    }
+    nav{
+        width: 100%;
+    }
+    h1{
+        font-size: 60px;
+    }
+    #tagline{
+        font-size: 40px;
+    }
+    h2 , h3 , h4 {
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    nav>a {
+        text-align: center;
+        padding-left: 20vw;
+        font-size: 25px;
+    }
+    /* Landing page */
+    video{
+        max-width: 40%;
+        margin-left:5%;
+    }
+    #why{
+       position: absolute; 
+        float: right;
+        top: 360px;
+        left: 50%;
+        margin-right: 5%; 
+        max-width: 45%;
+    }
+    .sub-header{
+        border-bottom: 1px solid var(--darkgrey);
+        max-width: 30%;
+        display: inline-block;
+        position:relative;
+        bottom: 70px;
+    }
+    #contact-us{
+        padding: 0;
+        right:10%;
+    }
+    .details{
+        max-width: 30%;
+        display: inline-block;
+        position: relative;
+    }
+    #number{
+        left: 15%;
+        bottom:70px;
+    }
+    #postcode{
+       right:15%;
+       top:60px;
+    }
+     #map{
+        max-width: 25%;
+        display: inline-block;
+        }
+    /* Menu Page */
+    #pastry , #donut , #cake{
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 600;
+    }
+    li{
+        padding: 10px 0 0 0;
+        font-size: 20px
+    }
+    /* Footer */
+    footer{
+        position:absolute;
+        top:1040px;
+        width: 100%;
+        margin-bottom: 0; 
+        margin-top:40px   
+    }
+    footer>a{
+        font-size:40px;
+        padding:10px;
+    }   
+}
+
+/* breakpoint extra large screens */
+@media screen and (min-width:1200px){
+    /*Index */
+    iframe{
+        max-width: 33%;
+    }
+    p{
+        margin: 0 20px;
+    }
+    .sub-header{
+        margin-left:50px;
+    }
+    /* Menu page*/
+    .menu{
+        display: inline-block;
+        height:300px;
+        width:300px;
+        position: absolute;
+    }
+    .card{
+        height:330px;
+    }
+    #top{
+        left:100px;
+    }
+    #middle{
+        left: 475px;
+    }
+    #bottom{
+        right:100px;
+    }
+    /*Order page*/
+    #headline{
+        margin:60px;
+    }
+}
