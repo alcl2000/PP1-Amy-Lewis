@@ -59,3 +59,5 @@ Deployment of this project is done through GitHub pages, a cloud-based web hosti
 #### Fonts through out the website 
 - ['Arsenal' By Andrij Shevchenko](https://fonts.google.com/specimen/Arsenal?query=arsenal)
 - ['Nothing you can do' by Kimberly Geswein](https://fonts.google.com/specimen/Nothing+You+Could+Do?query=nothing+)
+
+(new google link <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d623.9335851868345!2d1.079880700000003!3d51.27920899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47decbb5956a2a4d%3A0x85ede0c381ffc3b7!2s10%20High%20St%2C%20Canterbury%20CT1%202SA!5e0!3m2!1sen!2suk!4v1659551227503!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>)

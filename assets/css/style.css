@@ -7,8 +7,6 @@
     --pink: rgb(249, 243, 240);
     --white:rgb(242, 241, 235);
 }
-
-/* google fonts links in header of each page */
 body{
     background-color: rgb(242,241,235);
     margin: 0 0 0 0;
@@ -85,26 +83,6 @@ h4{
     font-family: 'Arsenal', sans-serif;
     margin:0 0 0 0;
 }
-video{
-    max-width: 70%;
-    margin-left: 10%;
-}
-.contact{
-    max-width: 80%;
-    margin-bottom:20px;
-}
-#find-us , #postcode, #contact-us , #number{
-    max-width: 95%;
-    text-align: center;
-}
-.sub-heading{
-    padding-bottom: 10px;
-}
-#map{
-    margin: 0 0 auto;
-    max-width: 70%;
-    margin-left: 15%;
-}
 /* Footer */
 footer{
     font-size:25px;
@@ -125,6 +103,27 @@ footer>a:visited{
 footer>a:hover{
     color:var(--pink);
     text-decoration: underline;
+}
+/*Index Page */
+video{
+    max-width: 70%;
+    margin-left: 10%;
+}
+.contact{
+    max-width: 80%;
+    margin-bottom:20px;
+}
+#find-us , #postcode, #contact-us , #number{
+    max-width: 95%;
+    text-align: center;
+}
+.sub-heading{
+    padding-bottom: 10px;
+}
+#map{
+    margin: 0 0 auto;
+    max-width: 70%;
+    margin-left: 15%;
 }
 /* menu page*/
 ul{
