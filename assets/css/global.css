@@ -9,7 +9,7 @@
 }
 body{
     background-color: rgb(242,241,235);
-    margin: 0 0 0 0;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
@@ -34,10 +34,6 @@ header>h2{
 }
 hr{
     color: #FFFBE6;
-}
-p{
-    margin: 10px;
-    margin-bottom: 20px;
 }
 a{
     text-decoration: none;
@@ -81,7 +77,11 @@ h2, h3 {
 }
 h4{
     font-family: 'Arsenal', sans-serif;
-    margin:0 0 0 0;
+    margin:0 10px;
+}
+p{
+    margin: 10px;
+    margin-bottom: 20px;
 }
 /* Footer */
 footer{
@@ -105,6 +105,9 @@ footer>a:hover{
     text-decoration: underline;
 }
 /*Index Page */
+#about>h3{
+    margin: 0 20px;
+}
 video{
     max-width: 70%;
     margin-left: 10%;
