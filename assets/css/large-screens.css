@@ -3,15 +3,7 @@
     #address #contacts{
         max-width: 30%;
         display: inline-block;
-        position: relative;
-        margin-left:5%;
     }
-    
-    /*.details{
-        max-width:30%;
-        display:inline-block;
-        position: relative;
-    } */
 }
 /* breakpoint - large screens*/
 @media screen and (min-width: 1000px){
@@ -54,24 +46,9 @@
          margin-right: 5%; 
          max-width: 45%;
      }
-   /* .sub-header{
-        margin-left:25%;
-    }
-    #contact-us{
-        padding: 0;
-        right:10%;
-    }
-    #number{
-        left: 15%;
-        bottom:70px;
-    }
-    #postcode{
-       right:15%;
-       top:60px;
-    } */
      #map{
-        width: 33%;
-        height:20%;
+        width: 400px;
+        height:400px;
         display: inline-block;
         }
     /* Menu Page */
@@ -101,15 +78,9 @@
 /* breakpoint extra large screens */
 @media screen and (min-width:1200px){
     /*Index */
-    iframe{
-        max-width: 33%;
-    }
     p{
         margin: 0 20px;
     }
-    /*.sub-header{
-        margin-left:50px;
-    } */
     /* Menu page*/
     .menu{
         display: inline-block;
@@ -121,13 +92,13 @@
         height:330px;
     }
     #top{
-        left:100px;
+        left:10%;
     }
     #middle{
-        left: 475px;
+        left: 38%;
     }
     #bottom{
-        right:100px;
+        right:10%;
     }
     /*Order page*/
     #headline{
