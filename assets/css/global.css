@@ -104,6 +104,9 @@ footer>a:hover{
     color:var(--pink);
     text-decoration: underline;
 }
+footer>p{
+    color: var(--pink);
+}
 /*Index Page */
 #about>h3{
     margin: 0 20px;
