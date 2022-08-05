@@ -47,8 +47,10 @@
          max-width: 45%;
      }
      #map{
-        width: 400px;
-        height:400px;
+        width: 45%;
+        height:350px;
+        margin-left: 5%;
+       /* height:400px; */
         display: inline-block;
         }
     /* Menu Page */
@@ -64,7 +66,7 @@
     /* Footer */
     footer{
         position:absolute;
-        top:1040px;
+        top:1150px;
         width: 100%;
         margin-bottom: 0; 
         margin-top:40px   
