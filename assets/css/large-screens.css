@@ -72,7 +72,11 @@
     footer>a{
         font-size:40px;
         padding:10px;
-    }   
+    } 
+    a>p{
+        width: fit-content;
+        margin-left:38%;
+    }  
 }
 
 /* breakpoint extra large screens */
