@@ -1,4 +1,4 @@
-/* Universal */
+/* universal */
 :root{
     --brown1:rgb(181,137,92);
     --brown2:rgb(207, 169, 131);
@@ -83,7 +83,7 @@ p{
     margin: 10px;
     margin-bottom: 20px;
 }
-/* Footer */
+/* footer */
 footer{
     font-size:25px;
     text-align: center;
@@ -107,7 +107,7 @@ footer>a:hover{
 footer>p{
     color: var(--pink);
 }
-/*Index Page */
+/* index Page */
 #about>h3{
     margin: 0 20px;
 }
@@ -131,7 +131,7 @@ video{
     max-width: 70%;
     margin-left: 15%;
 }
-/* menu page*/
+/* menu page */
 ul{
     background-color: rgb(229, 189, 150);
     max-width: 70%; 
@@ -157,7 +157,7 @@ ul>.variety{
     padding: 0px 10px;
     z-index: 1;
 }
-/* Ordering page */
+/* ordering page */
 form{
     text-align: center;
     
@@ -188,7 +188,7 @@ img{
     width:100%;
     padding-bottom: 20px;
 }
-/* thank you page*/
+/* thank you page */
 #thank-you{
     text-align: center;
 }
@@ -215,7 +215,7 @@ a>p{
         padding-top: 1em;
         color: var(--darkgrey);
     }
-    /*order page */
+    /* order page */
     form{
         margin:10px;
     }
@@ -229,7 +229,7 @@ a>p{
     }
 }
 
-/* breakpoint - medium screens*/
+/* breakpoint - medium screens */
 @media screen and (min-width: 450px) {
     h1 {
         padding-left: 5%;
@@ -249,7 +249,7 @@ a>p{
         max-width: 70%;
         margin-left: 15%;
     }
-    /* Menu */
+    /* menu */
     ul{
         padding: 30px;
         font-size: 20px;
@@ -257,7 +257,7 @@ a>p{
     #card{
         width: 300px;
     }
-    /*Order page*/
+    /* order page */
     #headline{
         left:40%;
         margin:30px;
@@ -266,13 +266,13 @@ a>p{
         max-width: 80%;
         margin:20px 25%;
     }
-    /* Thank You page*/
+    /* thank You page */
     #back{
         margin-left:60%;
     }
 }
 
- /* breakpoint - Tablets/ horizontal */
+ /* breakpoint - tablets/ horizontal */
  @media screen and (min-width:600px){
     #map{
         float:left;
