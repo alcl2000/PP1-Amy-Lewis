@@ -19,6 +19,11 @@ The inital wireframes do not exactly match the end project, but still show the u
 ![A sitemap created in wireframe for to show the stucture of pages within this project](assets/content/readme/wireframe-sitemap.jpg)
 ![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) ![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg) ![A wireframe created for the menu page, on large screens](assets/content/readme/wireframe-menu.jpg) ![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
 ## Features
+### Header & Navigation Bar 
+
+The header provides a welcome to the site, with a bold title on top and a friendly tagline to welcome users in. The fonts used a both credited below, and both have alternate tags for users who's browsers may not support the linked fonts.
+
+The navigation bar is placed directly below the header for ease of access by users, it contains 3 evenly spaced links to the other pages of the site, making it easy to navigate through. 
 ### Landing Page
 
 The landing/Index page acts as a home page to the Bakery Website; it has a short about section and a section with the Frost's unique selling point as a way to encourage new customers. There is also a video, demonstrating common baking techniques as a way of inticing customers, the video plays on mute and allows users to pause or play it with the use of controls. The landing page also has a map and address section, which fulfills user expectation 2. 
@@ -38,6 +43,7 @@ The thank you page acts as an order confirmation page, letting customers know th
 ## Testing
 ### Validation
 All pages pass HTML validtion with no errors. [HTML Validation from](https://validator.w3.org/nu/#textarea)
+Both CSS files pass validation with no errors. [CSS Validation from](https://validator.w3.org/nu/#l88c26)
 ### Manual Testing
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
@@ -47,9 +53,14 @@ The font sizes change with media queries in the CSS file, so the text remains le
 Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
 ![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess-testing.jpg)
 ## Bug fixes
-The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
+The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the property of 'fixed' to the footer, and in the appropriate media queries.
 
 While not a bug, intially the hero image for the order page was too large a file size and was causing lags when opening the page on mobile, this was solved by compressing the image to decrease loading times and to make the site more responsive.
+
+Html validation showed several errors in the HTML code of various pages, these inlcuded:
+- The menu page containing a mixed up closing div tag and closing ul tag
+- The index page contained 2 elemments with the same id tag, this tage was changed to solve any discrepancies 
+- The order page's date input was rectified to remove an invalid attribute tag
 ## Deployment
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
