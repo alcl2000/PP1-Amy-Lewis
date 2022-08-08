@@ -32,9 +32,6 @@ header>h2{
     margin: 0;
     text-align: left;
 }
-hr{
-    color: rgb(255, 251, 230);
-}
 a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,7 +82,7 @@ p{
 }
 /* footer */
 footer{
-    font-size:25px;
+    font-size:10px;
     text-align: center;
     color: var(--darkgrey);
     position:sticky bottom;
@@ -94,6 +91,7 @@ footer{
     height: fit-content;
 }
 footer>a{
+    font-size: 25px;
     padding:5px;
     background-color: var(--brown2);
 }
