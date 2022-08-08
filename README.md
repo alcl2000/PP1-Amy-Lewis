@@ -25,14 +25,15 @@ The inital wireframes do not exactly match the end project, but still show the u
 ![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
 ## Features
 ### Header & Navigation Bar 
-
+![The Finished Header and navigation bar](assets/content/readme/finished-header.jpg)
 The header provides a welcome to the site, with a bold title on top and a friendly tagline to welcome users in. The fonts used a both credited below, and both have alternate tags for users who's browsers may not support the linked fonts.
 
 The navigation bar is placed directly below the header for ease of access by users, it contains 3 evenly spaced links to the other pages of the site, making it easy to navigate through. The navigation anchor tags contain the 'id="open"' so that the open links display at a different colour, making the site easier to navigate.
 
 ### Footer
+![The finished footer and links](assets/content/readme/finished-footer.jpg)
 
-At the bottom of each page there is a footer, which provides links to several social media pages. All of these links have aria-labels for accessibility and open in a new page to make navigation easier
+At the bottom of each page there is a footer, which provides links to several social media pages. All of these links have aria-labels for accessibility and open in a new page to make navigation easier. The footer also contains a small copy right to demonstrate the ownership of the website.
 
 ### Landing Page
 
