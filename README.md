@@ -44,7 +44,7 @@ All images and video content have alt-text provided, all links have attached ari
 The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes.
 
 Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
-![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess%20testing.jpg)
+![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess-testing.jpg)
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
 ## Deployment
