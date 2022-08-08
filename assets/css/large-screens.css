@@ -90,6 +90,9 @@
     p{
         margin: 0 20px;
     }
+    #index-footer{
+        margin-top: 60px;
+    }
     /* menu page*/
     .menu{
         display: inline-block;
