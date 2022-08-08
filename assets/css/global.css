@@ -87,7 +87,8 @@ footer{
     color: var(--darkgrey);
     position:sticky;
     background-color: var(--brown2);
-    padding: 20px 0;
+    margin:10px 0;
+    padding: 20px 0 5px 0;
 }
 footer>a{
     font-size: 25px;

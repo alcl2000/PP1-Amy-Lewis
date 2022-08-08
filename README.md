@@ -17,9 +17,12 @@ This project is a bakery's website, alowing users to find out opening and closin
 
 ## Wireframes
 ### Inital Wireframes used for this project
-The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices
+The inital wireframes do not exactly match the end project, but still show the user a base idea of how the website will look on different pages and devices.
 ![A sitemap created in wireframe for to show the stucture of pages within this project](assets/content/readme/wireframe-sitemap.jpg)
-![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) ![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg) ![A wireframe created for the menu page, on large screens](assets/content/readme/wireframe-menu.jpg) ![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
+![A wireframe created for the home page, on larger screens](assets/content/readme/wireframe-homepage-large.jpg) 
+![A wireframe created for the home page, on smaller screens](assets/content/readme/wireframe-homepage-small.jpg) 
+![A wireframe created for the menu page, on large screens](assets/content/readme/wireframe-menu.jpg) 
+![A wireframe created for the order page, on large screens](assets/content/readme/wireframe-order.jpg) 
 ## Features
 ### Header & Navigation Bar 
 
