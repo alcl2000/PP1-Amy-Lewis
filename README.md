@@ -59,6 +59,8 @@ All pages load quickly, and on devices with smaller screen sizes load with a dif
 All links in the header work, and all links to external sites open in a different tab.
 
 The video content on the index page loads quickly and on mute and pause, with controls available for the user to be able to play the video at will.
+
+This website was developed using Google chrome, but the website still performs well on other browsers, such as Firefox and Edge
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
 
