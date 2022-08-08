@@ -36,17 +36,23 @@ The navigation bar is placed directly below the header for ease of access by use
 At the bottom of each page there is a footer, which provides links to several social media pages. All of these links have aria-labels for accessibility and open in a new page to make navigation easier. The footer also contains a small copy right to demonstrate the ownership of the website.
 
 ### Landing Page
+![The finished index page showing a video and the USP of the company](assets/content/readme/finished-video.jpg)
+![The finished index page showing the map address and contact details for the bakery](assets/content/readme/finished-contact.jpg)
 
 The landing/Index page acts as a home page to the Bakery Website; it has a short about section and a section with the Frost's unique selling point as a way to encourage new customers. There is also a video, demonstrating common baking techniques as a way of inticing customers, the video plays on mute and allows users to pause or play it with the use of controls. The landing page also has a map and address section, which fulfills user expectation 2. 
 ### Menu 
+![The finished menu page showing the three menu cards with different options available through the bakery](assets/content/readme/finished-menu.jpg)
 
 The menu page contains three boxes which display Unordered lists, these contain different menu items which customers may want to order, fulfilling both expectations 1 and 2.
 
 ### Ordering page 
+![The finished order page showing the hero image at the top of the order page](assets/content/readme/finished-hero.jpg)
+![The finished order page showing the order form at the bottom of the page, where users can place an order](assets/content/readme/finished-form.jpg)
 
 The order page contains information about the ordering process and how it works, which fulfills expectation 1, it also contains an easy to use form to order food and decide whether to have it delivered or collect it, fulfilling expecation 4. 
 
 ### Thank you page
+![The finished thank you page, with a back button to allow users to navigate without using the browser](assets/content/readme/finished-thank-you.jpg)
 
 The thank you page acts as an order confirmation page, letting customers know that their order from the form has gone through and that their order will be processed. This page also has a back button, allowing users to navigate without needing to use the browser. 
 
