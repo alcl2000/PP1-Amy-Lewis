@@ -116,7 +116,7 @@ video{
     max-width: 80%;
     margin-bottom:20px;
 }
-#find-us , #postcode, #contact-us , #number{
+#where , #postcode, #contact-us , #number, #find-us{
     max-width: 95%;
     text-align: center;
 }

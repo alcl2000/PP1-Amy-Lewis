@@ -37,6 +37,7 @@ The thank you page acts as an order confirmation page, letting customers know th
 ## Features to implement   
 ## Testing
 ### Validation
+Index passes HTML validation
 ### Manual Testing
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
@@ -47,6 +48,8 @@ Some of the colours used in this project did not score highly enough in acessibi
 ![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess-testing.jpg)
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the properties 'fixed bottom' to the footer, and in the appropriate media queries
+
+While not a bug, intially the hero image for the order page was too large a file size and was causing lags when opening the page on mobile, this was solved by compressing the image to decrease loading times and to make the site more responsive.
 ## Deployment
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
