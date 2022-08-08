@@ -8,7 +8,7 @@
     --white:rgb(242, 241, 235);
 }
 body{
-    background-color: rgb(242,241,235);
+    background-color:var(--white);
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -33,7 +33,7 @@ header>h2{
     text-align: left;
 }
 hr{
-    color: #FFFBE6;
+    color: rgb(255, 251, 230);
 }
 a{
     text-decoration: none;
@@ -52,7 +52,7 @@ nav>a{
     padding-right:2em ;
     padding-left: 2em;
     padding-top: 1em;
-    color: rgb(28, 47, 47);
+    color: var(--darkgrey);
 }
 nav>a:hover{
     color:var(--pink);
@@ -87,9 +87,9 @@ p{
 footer{
     font-size:25px;
     text-align: center;
-    color: rgb(28, 47, 47);
+    color: var(--darkgrey);
     position:sticky bottom;
-    background-color:rgb(207, 169, 131);
+    background-color: var(--brown2);
     padding-bottom: 20px;
     height: fit-content;
 }
@@ -157,9 +157,6 @@ ul>.variety{
     padding: 0px 10px;
     z-index: 1;
 }
-#card{
-    margin: 0 0 auto;
-}
 /* Ordering page */
 form{
     text-align: center;
@@ -205,9 +202,6 @@ a>p{
     padding: 10px;
     font-weight: 500;
 }
-#back:hover{
-    background-color:rgb(220, 220, 220);
-}
 
 /* breakpoint - small/medium screens */
 @media screen and (min-width: 400px){
@@ -219,7 +213,7 @@ a>p{
         padding-right:4em ;
         padding-left: 2em;
         padding-top: 1em;
-        color: rgb(28, 47, 47);
+        color: var(--darkgrey);
     }
     /*order page */
     form{
