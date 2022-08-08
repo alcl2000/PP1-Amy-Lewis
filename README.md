@@ -1,6 +1,8 @@
 # Frost's Bakery
 ## Introduction
 This project is a bakery's website, alowing users to find out opening and closing times, the bakery's location and menu. As well as place an order for delivery or collection. The site is targeted towards customers of all ages in the local area, it will provide users with ways to find and contact the bakery; as well as be able to see and order the food from the site
+
+![A website showing the completed website on several different devices including phones, tablets and laptops](assets/content/readme/responsive.jpg)
 ## UserExperience
 ### User stories
 1. As a local of the area I would like to be able to find new and exciting options for food and to support the local ecoonomy by avoiding commercial coffee shops and bakeries. 
