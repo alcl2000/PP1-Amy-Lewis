@@ -53,6 +53,12 @@ In future, the scope of this project is set to expand, to increase functionality
 All pages pass HTML validtion with no errors. [HTML Validation from](https://validator.w3.org/nu/#textarea)
 Both CSS files pass validation with no errors. [CSS Validation from](https://validator.w3.org/nu/#l88c26)
 ### Manual Testing
+
+All pages load quickly, and on devices with smaller screen sizes load with a different layout to increase loading times and to make the website look more modern. 
+
+All links in the header work, and all links to external sites open in a different tab.
+
+The video content on the index page loads quickly and on mute and pause, with controls available for the user to be able to play the video at will.
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
 
