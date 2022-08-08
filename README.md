@@ -37,7 +37,7 @@ The thank you page acts as an order confirmation page, letting customers know th
 ## Features to implement   
 ## Testing
 ### Validation
-Index passes HTML validation Menu passes with warnings
+All pages pass HTML validtion with no errors. [HTML Validation from](https://validator.w3.org/nu/#textarea)
 ### Manual Testing
 ## Accessibility
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
