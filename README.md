@@ -23,7 +23,12 @@ The inital wireframes do not exactly match the end project, but still show the u
 
 The header provides a welcome to the site, with a bold title on top and a friendly tagline to welcome users in. The fonts used a both credited below, and both have alternate tags for users who's browsers may not support the linked fonts.
 
-The navigation bar is placed directly below the header for ease of access by users, it contains 3 evenly spaced links to the other pages of the site, making it easy to navigate through. 
+The navigation bar is placed directly below the header for ease of access by users, it contains 3 evenly spaced links to the other pages of the site, making it easy to navigate through. The navigation anchor tags contain the 'id="open"' so that the open links display at a different colour, making the site easier to navigate.
+
+### Footer
+
+At the bottom of each page there is a footer, which provides links to several social media pages. All of these links have aria-labels for accessibility and open in a new page to make navigation easier
+
 ### Landing Page
 
 The landing/Index page acts as a home page to the Bakery Website; it has a short about section and a section with the Frost's unique selling point as a way to encourage new customers. There is also a video, demonstrating common baking techniques as a way of inticing customers, the video plays on mute and allows users to pause or play it with the use of controls. The landing page also has a map and address section, which fulfills user expectation 2. 
@@ -40,6 +45,9 @@ The order page contains information about the ordering process and how it works,
 The thank you page acts as an order confirmation page, letting customers know that their order from the form has gone through and that their order will be processed. This page also has a back button, allowing users to navigate without needing to use the browser. 
 
 ## Features to implement   
+
+In future, the scope of this project is set to expand, to increase functionality for both site owners and users. The 'Thank you' page will have an additional section telling the customer their order number and providing email confirmation of their order to help with deliveries and collection. The order page will feature a rolling total to display the price of the order for added ease of use by the customer.
+
 ## Testing
 ### Validation
 All pages pass HTML validtion with no errors. [HTML Validation from](https://validator.w3.org/nu/#textarea)
@@ -65,6 +73,10 @@ Html validation showed several errors in the HTML code of various pages, these i
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
 ## Credits
+### Technology used
+
+This projected was developed using HTML and CSS code only.
+
 ### Media 
 - Royalty free baking video By Taryn Elliot [Sourced from Pexels](https://www.pexels.com/video/stirring-flour-and-condensed-milk-in-a-mixing-bowl-3325984/)
 - Royalty free pastry picture By Skyler Ewing [Sourced from Pexels](https://www.pexels.com/photo/freshly-baked-bread-with-cinnamon-9513725/)
