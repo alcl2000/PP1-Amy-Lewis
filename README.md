@@ -89,14 +89,13 @@ Some of the colours used in this project did not score highly enough in acessibi
 - Mobile
 ![Light house scores for mobile showing green in all categories](assets/content/readme/lighthouse-mobile.jpg)
 ## Bug fixes
-The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the property of 'fixed' to the footer, and in the appropriate media queries.
+- The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the property of 'fixed' to the footer, and in the appropriate media queries.
+- While not a bug, intially the hero image for the order page was too large a file size and was causing lags when opening the page on mobile, this was solved by compressing the image to decrease loading times and to make the site more responsive.
 
-While not a bug, intially the hero image for the order page was too large a file size and was causing lags when opening the page on mobile, this was solved by compressing the image to decrease loading times and to make the site more responsive.
-
-Html validation showed several errors in the HTML code of various pages, these inlcuded:
-- The menu page containing a mixed up closing div tag and closing ul tag
-- The index page contained 2 elemments with the same id tag, this tage was changed to solve any discrepancies 
-- The order page's date input was rectified to remove an invalid attribute tag
+- Html validation showed several errors in the HTML code of various pages, these inlcuded:
+    - The menu page containing a mixed up closing div tag and closing ul tag
+    - The index page contained 2 elemments with the same id tag, this tage was changed to solve any discrepancies 
+    - The order page's date input was rectified to remove an invalid attribute tag
 ## Deployment
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
