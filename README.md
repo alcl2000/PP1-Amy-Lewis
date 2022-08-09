@@ -84,7 +84,9 @@ The font sizes change with media queries in the CSS file, so the text remains le
 Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
 ![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess-testing.jpg)
 ### Lighthouse scores 
+- Desktop
 ![Lighthouse scores for desktop showing green in all categories](assets/content/readme/lighthouse-desktop.jpg)
+- Mobile
 ![Light house scores for mobile showing green in all categories](assets/content/readme/lighthouse-mobile.jpg)
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the property of 'fixed' to the footer, and in the appropriate media queries.
@@ -98,7 +100,7 @@ Html validation showed several errors in the HTML code of various pages, these i
 ## Deployment
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
 
-The live website can be found [(here](https://alcl2000.github.io/PP1-Amy-Lewis/index.html)
+The live website can be found [here](https://alcl2000.github.io/PP1-Amy-Lewis/index.html)
 
 ## Credits
 ### Technology used
