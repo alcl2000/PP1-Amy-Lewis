@@ -2,6 +2,8 @@
 ## Introduction
 This project is a bakery's website, alowing users to find out opening and closing times, the bakery's location and menu. As well as place an order for delivery or collection. The site is targeted towards customers of all ages in the local area, it will provide users with ways to find and contact the bakery; as well as be able to see and order the food from the site
 
+The live website can be found [here](https://alcl2000.github.io/PP1-Amy-Lewis/index.html)
+
 ![A website showing the completed website on several different devices including phones, tablets and laptops](assets/content/readme/responsive.jpg)
 ## UserExperience
 ### User stories
@@ -74,12 +76,16 @@ The video content on the index page loads quickly and on mute and pause, with co
 
 This website was developed using Google chrome, but the website still performs well on other browsers, such as Firefox and Edge
 ## Accessibility
+
 All images and video content have alt-text provided, all links have attached aria-labels, helping users who need screen readers. The video and image content also has alternate text for people who's browsers does not support the content, as to support the web-content for user's who's browsers don't support HTML5.
 
 The font sizes change with media queries in the CSS file, so the text remains legible at all screen sizes.
 
 Some of the colours used in this project did not score highly enough in acessibility testers for contratst, so different colours were used instead.
 ![acessibility tester showing a warning over text saying 'order' the text is a light pink, with a brown background](assets/content/readme/acess-testing.jpg)
+### Lighthouse scores 
+![Lighthouse scores for desktop showing green in all categories](assets/content/readme/lighthouse-desktop.jpg)
+![Light house scores for mobile showing green in all categories](assets/content/readme/lighthouse-mobile.jpg)
 ## Bug fixes
 The footer on pages with less content (ie the Thank You page) does not always stick to the bottom of the screen, often creating quite a large gap between content and the footer. This was resolved by adding the property of 'fixed' to the footer, and in the appropriate media queries.
 
@@ -91,6 +97,8 @@ Html validation showed several errors in the HTML code of various pages, these i
 - The order page's date input was rectified to remove an invalid attribute tag
 ## Deployment
 Deployment of this project is done through GitHub pages, a cloud-based web hosting service, which will allow for changes to be made to the website post-deployment, in order to update menus and other details. The code is hosted through Github, allowing people to clone the project if desired.
+
+The live website can be found [(here](https://alcl2000.github.io/PP1-Amy-Lewis/index.html)
 
 ## Credits
 ### Technology used
